@@ -1,0 +1,112 @@
+﻿body {
+    margin:0;
+    padding:0;
+    color: #574c3f;
+    font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+#nav {
+    background-color: #383838;
+    color: #FFFFFF;
+
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0
+    
+}
+
+
+    #nav li {
+        
+        display: inline-block;
+        padding: 0 25px 0 25px;
+    
+
+    }
+
+
+
+    #nav > li > a {
+        text-decoration: none;
+        color: #ffffff
+    }
+
+        #nav > li > a:hover {
+            
+            color: #c1c1c1;
+        }
+
+#content {
+    padding: 20px;
+    min-height: 400px;
+}
+
+
+
+
+/*Webshop */
+#ContentPlaceHolder1_pnlProducts div {
+    float: left;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.productName {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.productPrice {
+    font-family: arial,helvetica,sans-serif;
+    color: #FFB600;
+}
+
+
+
+
+.productImage {
+    width: 150px;
+    height: 150px;
+    vertical-align: central;
+    padding: 10px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.detailsImage{
+    margin-Right: 20px
+}
+.detailsDescription{
+    width: 400px;
+    font-style: italic
+}
+
+.detailPrice {
+    font-size: 24px;
+    font-style: italic; /*na bold zmienić*/
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    border: 0 ;
+    border-radius:4px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius : 4px;
+    clear:both;
+    background-color: #383838;
+}
